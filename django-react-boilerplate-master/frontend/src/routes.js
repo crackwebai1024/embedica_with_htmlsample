@@ -6,7 +6,6 @@ import Login from "./containers/Login";
 import Signup from "./containers/Signup";
 import HomepageLayout from "./containers/Home";
 import NlpDashboard from "./containers/NLPDashboard";
-import NlpProcessing from "./containers/NLPProcessing";
 import PrivateRoute from "./PrivateRouter";
 
 
@@ -16,7 +15,6 @@ const BaseRouter = () => (
     <Route path="/signup" component={Signup} />
     <Route exact path="/" component={HomepageLayout} />
     <PrivateRoute component={NlpDashboard} path="/nlpdashboard" />
-    <PrivateRoute component={NlpProcessing} path="/nlpprocessing" />
   </Hoc>
 );
 

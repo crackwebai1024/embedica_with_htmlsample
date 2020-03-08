@@ -31,27 +31,16 @@ a:link{
     background-color: rgb(78, 115, 223);
     height: 800px;
     padding: 0 !important;
-    padding-left: 50px !important;
+    padding-left: 0px !important;
 }
 
 .picsidemenubar {
+    margin-left: 0px !important;
+    width: 240px !important;
     background-color: rgb(211, 211, 211);
     height: 80px;
     padding-left: 80px !important;
     padding-bottom: 0px !important;
-}
-
-button{
-    width : 100%;
-    border-radius: 5px;
-    background-color: rgb(78, 115, 223);
-    border-style: none;
-    height: 60px;
-    margin: 0 !important;
-    text-align: left !important;
-    padding: 0 !important;
-    border: none !important;
-    float: left !important;
 }
 
 .usericon{
@@ -59,10 +48,18 @@ button{
     margin-right: 10px !important;
 }
 
-button:hover{
+a:hover{
     background-color: rgb(243,243,249) !important ;
     border-bottom-left-radius: 10px !important;
     border-top-left-radius: 10px !important;
+}
+
+a:hover h4{
+    color: rgb(80, 80, 80);
+}
+
+a:hover h5{
+    color: rgb(80, 80, 80);
 }
 
 button:visited{
@@ -79,15 +76,19 @@ button:focus{
 }
 
 h4 {
-    font-family: 'Times New Roman', Times, serif !important;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90% !important;
+    font-size: 18px !important;
     margin-left: 0px !important;
     padding-left: 10px !important;
     padding-top: 5px !important;
+    color: white;
 }
 
 h5 {
-    font-family: 'Times New Roman', Times, serif !important;
-    margin-left: 60px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px !important;
+    font-size: 15px !important;
 }
 
 .col-sm-12{
@@ -102,13 +103,58 @@ h5 {
 }
 
 #sidebar ul li a {
-    padding: 10px;
-    font-size: 1.1em;
+    padding: 0px;
+    color:white;
     display: block;
+}
+
+a.dropdown-toggle::after {
+    display: none !important;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
-    color: #fff;
-    background: #6d7fcc;
+    color: white
+}
+
+li{
+    padding-left: 10px ;
+}
+
+nav{
+    margin: 0px !important;
+}
+
+.workboard{
+    padding: 30px !important;
+}
+
+.card{
+    border-radius: 8px !important;
+}
+
+.card-title{
+    color: gray !important;
+}
+
+.nk-sidebar{
+    margin-top: 0px !important;
+    width: 240px !important;
+    height:1000px !important;
+}
+
+.slimScrollDiv{
+    margin-top: 0px !important;
+    position: relative; 
+    overflow: hidden;
+    width: auto; 
+    height: 100%;
+}
+
+.nk-nav-scroll{
+    height: 800px !important;
+}
+
+.metismenu{
+    height: 800px !important;
 }

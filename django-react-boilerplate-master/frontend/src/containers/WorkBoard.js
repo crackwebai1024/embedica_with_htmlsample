@@ -15,7 +15,7 @@ class WorkBoard extends Component {
     render() {
         return (
             <div class="container-fluid">
-                <div class="row">
+                <div class="row workboard">
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-body">
@@ -32,6 +32,7 @@ class WorkBoard extends Component {
                                 </div>
                             </div>
                         </div>
+                        <div style={{ height: 30 }}></div>
                         <div class="card">
                             <div class="card-body">
                                 <div class="card-title">

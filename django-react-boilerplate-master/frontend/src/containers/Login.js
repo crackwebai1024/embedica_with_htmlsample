@@ -8,7 +8,7 @@ import {
   Segment
 } from "semantic-ui-react";
 import { connect } from "react-redux";
-import { NavLink, Redirect } from "react-router-dom";
+import { NavLink, Redirect, Link } from "react-router-dom";
 import { authLogin } from "../store/actions/auth";
 
 class LoginForm extends React.Component {

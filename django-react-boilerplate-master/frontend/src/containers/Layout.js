@@ -44,7 +44,6 @@ class CustomLayout extends React.Component {
         </Menu>
 
         {this.props.children}
-
       </div>
     );
   }
